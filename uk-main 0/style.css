@@ -1,8 +1,17 @@
+body {
+    background-color: rgb(136, 136, 190);
+    font-size: 30px;
+    text-align: center;
+}
+
 h1{
+    display: inline;
+    padding: 10px;
+    margin: 25px;
     color: crimson;
     border-radius: 15%;
     border-color: brown;
-    border: 4px  double crimson ;
+    border: 4px  double crimson;
 }
 
 table { 
@@ -20,5 +29,21 @@ th, td {
     font-weight: 900;
 }
 
-
-text-align: center;
+nav {
+    background-color: rgba(209, 193, 236, 0.479);
+    margin: 30px auto;
+    width: 400px;
+    text-align: center;
+}
+ol {
+    background-color: rgba(183, 212, 231, 0.486);
+    margin: 30px auto;
+    width: 500px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15%;
+}
+img {
+    display: block;
+    margin: auto;
+}
